@@ -103,7 +103,7 @@ def main():
  
     print("")
  
-    print("\033[0;91m[BSDK START KRO]").center(50)
+    print("\033[0;91m[START CRACK]").center(50)
  
     print("")
  
@@ -331,7 +331,7 @@ def menu():
     
     print("")
 
-    print("\033[1;96m[3]\033[1;98mClone from fb groups
+    print("\033[1;96m[3]\033[1;98mClone from fb groups id")
 
     print("")
  
